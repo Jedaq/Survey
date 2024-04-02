@@ -57,9 +57,7 @@ body {
     height:auto;
     background-color: rgba(255, 255, 255, 0.8); 
     overflow: hidden;
-    padding:31.9px;
-    padding-left:142px;
-    padding-right:142px;
+    padding:46px;
 }
 .heading{
     font-family:Helvetica;
@@ -188,13 +186,73 @@ body {
     bottom:240px;
     left:800px;
 }
-@media (max-width: 768px) {
-    .container {
-        width: 90%;
+@media screen and (max-width:600px){
+
+    .container{
+        height:800px;
+        width:100%;
+        margin-left:-80px;
+        margin-right:-80px;
     }
-}
-@media (max-width: 576px) {
-    .container {
-        width: 95%;
+    .glass-border{
+        min-width:520px;
+        margin-right:30px;
+    }
+    .container-h{
+        height:800px;
+        width:100%;
+        margin-left:-80px;
+        margin-right:-80px;
+    }
+    .dropdown{
+        width:200px;
+    }
+    .page{
+        display:inline-block;
+        font-size:10px;
+    }
+    .page2{
+        display:inline-block;
+        font-size:10px;
+    }
+    .info{
+        font-size:15px;
+        opacity:0.6;
+    }
+    .info2{
+        font-size:15px;
+        color:rgb(255,124,74);
+        font-weight:600;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+    }
+    .button1 {
+        width:70px;
+        height:50px;
+        font-size:15px;
+        left:88.5%;
+        bottom:40px;
+    }
+    .button2{
+        font-size:13px;
+        padding:13px;
+        max-width:250px;
+    }
+    .button3{
+        width:70px;
+        height:40px; 
+        font-size:18px;  
+        margin-top:15px;
+        left:92%;
+    }
+    .button4{
+        background-color: rgb(190, 52, 52);
+        color:white;
+        width:25px;
+        height:35px;
+        position:relative;
+        bottom:164px;
+        left:1035px;
     }
 }
